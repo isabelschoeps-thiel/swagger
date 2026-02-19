@@ -3,15 +3,14 @@
 
 This is the Swagger Codegen project, which allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an [OpenAPI Spec](https://github.com/OAI/OpenAPI-Specification).
 
-💚 If you would like to contribute, please refer to [guidelines](https://github.com/swagger-api/swagger-codegen/blob/master/CONTRIBUTING.md) and a list of [open tasks](https://github.com/swagger-api/swagger-codegen/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).💚
 
-📔 For more information, please refer to the [Wiki page](https://github.com/swagger-api/swagger-codegen/wiki) and [FAQ](https://github.com/swagger-api/swagger-codegen/wiki/FAQ) 📔
+For more information, please refer to the [Wiki page](https://github.com/swagger-api/swagger-codegen/wiki) and [FAQ](https://github.com/swagger-api/swagger-codegen/wiki/FAQ) 📔
 
-⚠️ If the OpenAPI Description or Swagger file is obtained from an untrusted source, please make sure you've reviewed the artefact before using Swagger Codegen to generate the API client, server stub or documentation as [code injection](https://en.wikipedia.org/wiki/Code_injection) may occur. ⚠️
+If the OpenAPI Description or Swagger file is obtained from an untrusted source, please make sure you've reviewed the artefact before using Swagger Codegen to generate the API client, server stub or documentation as [code injection](https://en.wikipedia.org/wiki/Code_injection) 
 
 ## Versioning
 
-> ⚠️ this document refers to version 2.X, check [here](https://github.com/swagger-api/swagger-codegen/tree/3.0.0) for 3.X.
+this document refers to version 2.X, check [here](https://github.com/swagger-api/swagger-codegen/tree/3.0.0) for 3.X.
 
 Both **2.X** and **3.X** version lines of Swagger Codegen are available and are independently maintained.
 
@@ -235,7 +234,7 @@ open index.html
 
 ## Workflow Integration
 
-It's possible to leverage Swagger Codegen directly within your preferred CI/CD workflows to streamline your auto-generation requirements. Check out the [workflows integration](./docs/workflow-integration.md) guide to see information on our Maven, Gradle, and GitHub integration options. 🚀
+It's possible to leverage Swagger Codegen directly within your preferred CI/CD workflows to streamline your auto-generation requirements. Check out the [workflows integration](./docs/workflow-integration.md) guide to see information and GitHub integration options.
 
 ## Online Generators
 
@@ -259,16 +258,3 @@ Members of the core team shoulder the following responsibilities:
 ## Security contact
 
 Please disclose any security-related issues or vulnerabilities by emailing [security@swagger.io](mailto:security@swagger.io), instead of using the public issue tracker.
-
-## License information on Generated Code
-
-The Swagger Codegen project is intended as a benefit for users of the Swagger / Open API Specification.  The project itself has the [License](./LICENSE) as specified.  In addition, please understand the following points:
-
-- The templates included with this project are subject to the [License](./LICENSE).
-- Generated code is intentionally _not_ subject to the parent project license
-
-When code is generated from this project, it shall be considered **AS IS** and owned by the user of the software.  There are no warranties--expressed or implied--for generated code.  You can do what you wish with it, and once generated, the code is your responsibility and subject to the licensing terms that you deem appropriate.
-
-## Thank You
-
-💚💚💚 We'd like to give a big shout out to all those who've contributed to Swagger Codegen, be that in raising issues, fixing bugs, [authoring templates](./docs/template-creators.md), or crafting useful [content](./docs/public-content.md) for others to benefit from. 💚💚💚
